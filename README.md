@@ -1,4 +1,4 @@
-# WebScrapping
+# WebScraping
 Data Mining ,Analyzing and Visualization of the Collected Data with Python.
 
 <ul>
