@@ -8,7 +8,7 @@ def get_league_table(url):
     r=requests.get(url)
     soup=BeautifulSoup(r.text,"html.parser")
     tablelist = []
-    league_table=soup.find("table",class_="standing-table__table callfn")
+    league_table=soup.find("table",class_="standing-table__table")
 
     for team in league_table.find_all("tbody"):
         rows = team.find_all("tr")
